@@ -1,4 +1,4 @@
 package matias.proyect.Controllers;
 
-public class shoppingListController {
+public class ShoppingListController {
 }
