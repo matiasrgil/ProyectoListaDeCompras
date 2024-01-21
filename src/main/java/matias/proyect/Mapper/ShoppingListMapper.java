@@ -14,7 +14,7 @@ public class ShoppingListMapper {
         return entity;
     }
 
-    public static ShoppingListDto ShoppingListToDto(ShoppingList entity) {
+    public static ShoppingListDto shoppingListToDto(ShoppingList entity) {
         ShoppingListDto dto = new ShoppingListDto();
 
         dto.setId(entity.getId());
