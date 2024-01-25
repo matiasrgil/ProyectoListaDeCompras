@@ -1,4 +1,4 @@
-package matias.proyect.Exception;
+package matias.proyect.Exceptions;
 
 public class InvalidName extends RuntimeException{
 

@@ -1,4 +1,4 @@
-package matias.proyect.Exception;
+package matias.proyect.Exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

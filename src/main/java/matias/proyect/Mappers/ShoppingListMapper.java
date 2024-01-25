@@ -1,7 +1,7 @@
-package matias.proyect.Mapper;
+package matias.proyect.Mappers;
 
-import matias.proyect.Entity.Dto.ShoppingListDto;
-import matias.proyect.Entity.ShoppingList;
+import matias.proyect.Entities.Dto.ShoppingListDto;
+import matias.proyect.Entities.ShoppingList;
 
 public class ShoppingListMapper {
 

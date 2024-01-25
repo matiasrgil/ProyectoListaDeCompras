@@ -1,19 +1,14 @@
 package matias.proyect.Controllers;
 
 import jakarta.validation.Valid;
-import lombok.Getter;
-import matias.proyect.Entity.Dto.ShoppingListDto;
-import matias.proyect.Service.ShoppingListService;
+import matias.proyect.Entities.Dto.ShoppingListDto;
+import matias.proyect.Services.ShoppingListService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpStatus;
-import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.concurrent.RecursiveTask;
 
 @RestController
 @RequestMapping("/api/shopList")

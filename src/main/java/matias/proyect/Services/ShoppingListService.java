@@ -1,12 +1,12 @@
-package matias.proyect.Service;
+package matias.proyect.Services;
 
-import matias.proyect.Entity.Dto.ShoppingListDto;
-import matias.proyect.Entity.ShoppingList;
-import matias.proyect.Exception.ErrorZeroAmount;
-import matias.proyect.Exception.ErrorZeroPrice;
-import matias.proyect.Exception.InvalidName;
-import matias.proyect.Exception.NotFoundException;
-import matias.proyect.Mapper.ShoppingListMapper;
+import matias.proyect.Entities.Dto.ShoppingListDto;
+import matias.proyect.Entities.ShoppingList;
+import matias.proyect.Exceptions.ErrorZeroAmount;
+import matias.proyect.Exceptions.ErrorZeroPrice;
+import matias.proyect.Exceptions.InvalidName;
+import matias.proyect.Exceptions.NotFoundException;
+import matias.proyect.Mappers.ShoppingListMapper;
 import matias.proyect.Repositories.ShoppingListRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
